@@ -14,6 +14,10 @@
 		45A261BC2152AA5D00EA4868 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45A261BA2152AA5D00EA4868 /* LaunchScreen.storyboard */; };
 		45A261C72152AA5D00EA4868 /* AccelerometerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A261C62152AA5D00EA4868 /* AccelerometerTests.swift */; };
 		45A261D22152AA5D00EA4868 /* AccelerometerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A261D12152AA5D00EA4868 /* AccelerometerUITests.swift */; };
+		45A261E22152AAEA00EA4868 /* awa.png in Resources */ = {isa = PBXBuildFile; fileRef = 45A261E02152AAEA00EA4868 /* awa.png */; };
+		45A261E32152AAEA00EA4868 /* suiheiki.png in Resources */ = {isa = PBXBuildFile; fileRef = 45A261E12152AAEA00EA4868 /* suiheiki.png */; };
+		45A261E72152ADD700EA4868 /* MeasureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A261E62152ADD700EA4868 /* MeasureViewController.swift */; };
+		45A261E92152ADEB00EA4868 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A261E82152ADEB00EA4868 /* ResultViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		45A261CD2152AA5D00EA4868 /* AccelerometerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AccelerometerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		45A261D12152AA5D00EA4868 /* AccelerometerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccelerometerUITests.swift; sourceTree = "<group>"; };
 		45A261D32152AA5D00EA4868 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45A261E02152AAEA00EA4868 /* awa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = awa.png; sourceTree = "<group>"; };
+		45A261E12152AAEA00EA4868 /* suiheiki.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = suiheiki.png; sourceTree = "<group>"; };
+		45A261E62152ADD700EA4868 /* MeasureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeasureViewController.swift; sourceTree = "<group>"; };
+		45A261E82152ADEB00EA4868 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +105,11 @@
 		45A261B02152AA5B00EA4868 /* Accelerometer */ = {
 			isa = PBXGroup;
 			children = (
+				45A261DF2152AAEA00EA4868 /* 13_Resource */,
 				45A261B12152AA5B00EA4868 /* AppDelegate.swift */,
 				45A261B32152AA5B00EA4868 /* ViewController.swift */,
+				45A261E62152ADD700EA4868 /* MeasureViewController.swift */,
+				45A261E82152ADEB00EA4868 /* ResultViewController.swift */,
 				45A261B52152AA5B00EA4868 /* Main.storyboard */,
 				45A261B82152AA5D00EA4868 /* Assets.xcassets */,
 				45A261BA2152AA5D00EA4868 /* LaunchScreen.storyboard */,
@@ -123,6 +134,15 @@
 				45A261D32152AA5D00EA4868 /* Info.plist */,
 			);
 			path = AccelerometerUITests;
+			sourceTree = "<group>";
+		};
+		45A261DF2152AAEA00EA4868 /* 13_Resource */ = {
+			isa = PBXGroup;
+			children = (
+				45A261E02152AAEA00EA4868 /* awa.png */,
+				45A261E12152AAEA00EA4868 /* suiheiki.png */,
+			);
+			path = 13_Resource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,7 +251,9 @@
 			files = (
 				45A261BC2152AA5D00EA4868 /* LaunchScreen.storyboard in Resources */,
 				45A261B92152AA5D00EA4868 /* Assets.xcassets in Resources */,
+				45A261E32152AAEA00EA4868 /* suiheiki.png in Resources */,
 				45A261B72152AA5B00EA4868 /* Main.storyboard in Resources */,
+				45A261E22152AAEA00EA4868 /* awa.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,8 +278,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45A261E72152ADD700EA4868 /* MeasureViewController.swift in Sources */,
 				45A261B42152AA5B00EA4868 /* ViewController.swift in Sources */,
 				45A261B22152AA5B00EA4868 /* AppDelegate.swift in Sources */,
+				45A261E92152ADEB00EA4868 /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
